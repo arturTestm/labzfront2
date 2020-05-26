@@ -7,6 +7,7 @@ import Main from "./Routes/Main";
 import './i18n/i18n';
 import {Provider} from 'react-redux';
 import store from "./Store/store";
+require('./Axios');
 
 ReactDOM.render(
   <React.StrictMode>
