@@ -7,4 +7,9 @@ export default
         exact: true,
         main: React.lazy(() => import("../../Components/Homepage/Welcome")),
     },
+    {
+        path: "/stats",
+        exact: true,
+        main: React.lazy(() => import("../../Components/Homepage/Welcome")),
+    },
 ]
